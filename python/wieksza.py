@@ -4,12 +4,14 @@
 
 
 def main(args):
-    a = input("Podaj liczbe:")
-    b = input("Podaj liczbe:")
+    a = int(input("Podaj liczbe:"))
+    b = int(input("Podaj liczbe:"))
     if a > b:
-        print(a)
+        print("a > b")
+    elif b > a:
+        print("b > a")
     else:
-        print(b)
+        print("a = b")
     return 0
 
 if __name__ == '__main__':
