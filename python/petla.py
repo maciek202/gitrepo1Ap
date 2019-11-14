@@ -2,17 +2,28 @@
 # -*- coding: utf-8 -*-
 
 
-def sumuj_parzyste():
-        suma = 0
-    for i in range(0,101,2):
+def sumuj_parzyste(start,stop):
+    suma = 0
+    for i in range(start, stop+1, 2):
         #liczba = int(input("Podaj liczbe:"))
         suma = suma + i
         
     print(suma) 
 
-
+def drukuj_nieparzyste(start,stop):
+    #if start % 2 == 0:
+        #start = start + 1 
+    for i in range(start, stop+1):
+        if i % 2 == 1:
+        
+            print(i)
+        
+     
 def main(args):
-    sumuj_parzyste()
+    start = int(input("Podaj początek zakresu: "))
+    stop = int(input("Podaj koniec zakresu: "))
+    #sumuj_parzyste(start, stop)
+    drukuj_nieparzyste(start, stop)
     
     return 0
 
