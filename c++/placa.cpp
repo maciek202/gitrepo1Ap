@@ -13,15 +13,13 @@ int main(int argc, char **argv)
     cin >> a;
     cout << "Podaj stawkę za jedną nadgodzine: ";
     cin >> b;
-    if ( a < 30) {
-        p = a * b;
-        cin >> p;
+    if ( a <= 30) {
+        cin >> p = (a * b);
         cout << p; 
         } else if ( a > 30){
-            p = a * (b * 0,5);
-            cin >> p;
+            cin >> p = a * (b * 1,5);
             cout << p;
-            }
+            } 
     
 	return 0;
 }
