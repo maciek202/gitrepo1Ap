@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#  prostokat.py
 
 
 def main(args):
-    a = int(input("Podaj liczbe: "))
-    while a > 0:
-        if a % 5 and a% 7:
-            
+    w = int(input("Podaj wysokość: "))
+    sz = int(input("Podaj szerokość: "))
+    z = int(input("Podaj znak drukowania: "))
     
-    
-        
     return 0
 
 if __name__ == '__main__':
