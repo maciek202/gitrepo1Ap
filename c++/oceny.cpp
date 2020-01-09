@@ -23,7 +23,7 @@ int main(int argc, char **argv)
             cout << "Podaj dobrą ocenę: ";
             cin >> ocena;
             
-        }
+            }
         suma = suma + ocena;
         }
     srednia = suma / ilosc;
