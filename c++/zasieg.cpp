@@ -11,7 +11,7 @@ int suma = 0; //zasięg globalny
 void  drukuj(int liczba) {
     cout << suma << endl;
     liczba += 7;
-    cout << &liczba << endl;
+    //cout << &liczba << endl;
     cout << liczba << endl;
     }
 
