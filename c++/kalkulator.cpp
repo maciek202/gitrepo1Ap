@@ -46,7 +46,7 @@ int main(int argc, char **argv)
         case '*':
             pomnoz();
         break;
-        case'/';
+        case'/':
             podziel();
         break;
         default:
