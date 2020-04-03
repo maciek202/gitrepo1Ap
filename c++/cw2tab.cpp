@@ -27,7 +27,7 @@ void sumujW(int t[][10], int w, int k){
             cout << setw(6) << sumaW << endl;
         }       
     }
-// wydrukuj max sume i ideks wiersza
+// wydrukuj max sume i indeks wiersza
 
 void sumujK(int t[][10], int w, int k){
     
